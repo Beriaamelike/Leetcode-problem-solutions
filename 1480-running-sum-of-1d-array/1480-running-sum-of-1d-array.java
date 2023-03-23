@@ -31,7 +31,7 @@ class Main {
         Solution sol = new Solution();
 
         try (Scanner scan = new Scanner(System.in)) {
-            System.out.println("dizinin eleman sayisini giriniz: ");
+            System.out.println("enter the number of elements of the array: ");
             int N = scan.nextInt();
 
             int[] array = new int[N];
